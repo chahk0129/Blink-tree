@@ -19,5 +19,6 @@ Since it has been designed as a disk-based index, I applied several optimization
 $ mkdir bin
 $ make
 ```
-`./bin/test ${num_data} ${num_threads}` runs insert and read operations .
+`./bin/test ${num_data} ${num_threads}` runs insert and read operations.
+
 `./bin/range ${num_data} ${num_threads}` loads an index and runs range scans. 
